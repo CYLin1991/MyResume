@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <script src="../Scripts/jquery-3.1.1.js"></script>
+    <script src="../Scripts/bootstrap.js"></script>
+    <link href="animateCSS.css" rel="stylesheet" />
+    <script>
+        $(document).ready(function () {
+            $('.block').delay(500)
+            $('#block1').animate({ width: '0px', left: '1101px' }, 800, 'linear');
+            $('#block4').animate({ width: '0px'}, 900, 'linear');
+            $('#block3').animate({ width: '0px', left: '1040px' }, 500, 'linear');
+            $('#block2').animate({ width: '0px' }, 400, 'linear');
+        })
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div id="block1" class="block ani"></div>
+        <div id="block2" class="block ani"></div>
+        <div id="block3" class="block ani"></div>
+        <div id="block4" class="block ani"></div>
+            <img id="men" class="ani img-responsive" src="../Images/business1.PNG" />
+            <img id="L1" class="ani img-responsive" src="../Images/line1.png" />
+            <img id="L2" class="ani img-responsive" src="../Images/lin2.png" />
+            <img id="L3" class="ani img-responsive" src="../Images/line3.png" />
+            <img id="L4" class="ani img-responsive" src="../Images/line4.png" />
+            <div id="panel1" class="panelblock img-responsive">
+                <div class="panel panel-success">
+                    <div class="panel-heading panel-primary">
+                        <p class="panel-title text-center">
+                            <a class="chinese" data-toggle="collapse" data-parent="#groupInfo" href="#info">基本資料</a>
+                        </p>
+                    </div>
+                    <div id="info" class="panel-collapse collapse row">
+                        <div class="col-md-4">
+                            <img src="1050401-1.jpg" class="img-responsive img-circle me" />
+                        </div><!--self2-->
+                        <div class="col-md-8">
+                            <div class="table-response">
+                                <table id="myInfo" class="table table-hover chinese">
+                                    <tbody>
+                                        <tr>
+                                            <td>姓名</td>
+                                            <td>林建穎</td>
+                                        </tr>
+                                        <tr>
+                                            <td>出生日期</td>
+                                            <td>1991年12月26日</td>
+                                        </tr>
+                                        <tr>
+                                            <td>兵役</td>
+                                            <td>役畢(2015年11月)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>連絡電話</td>
+                                            <td>0975713100</td>
+                                        </tr>
+                                        <tr>
+                                            <td>住址</td>
+                                            <td>高雄市前鎮區崗山南街459巷18號</td>
+                                        </tr>
+                                        <tr>
+                                            <td>擅長工具</td>
+                                            <td>ASP.NET、HTML、JavaScript</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div><!--table-response-->
+                        </div><!--col-md8-->
+                    </div>
+                </div><!--panel1-->
+            </div>
+
+            <div id="panel2" class="panelblock">
+                <div class="panel panel-success">
+                    <div class="panel-heading panel-primary">
+                        <p class="panel-title text-center">
+                            <a class="chinese" data-toggle="collapse" data-parent="#groupInfo" href="#credit">學歷經歷</a>
+                        </p>
+                    </div>
+                    <div id="credit" class="panel-collapse collapse row">
+                        <div class="col-md-12">
+                            <div class="table-response">
+                                <table id="myInfo" class="table table-hover chinese">
+                                    <tbody>
+                                        <tr>
+                                            <td>就讀學校</td>
+                                            <td>國立中央大學</td>
+                                        </tr>
+                                        <tr>
+                                            <td>科系</td>
+                                            <td>生命科學系</td>
+                                        </tr>
+                                        <tr>
+                                            <td>就讀年間</td>
+                                            <td>2010/09~2014/06(肄業)</td>
+                                        </tr>
+                                        <tr>
+                                            <td>工作經歷</td>
+                                            <td>無工作經歷</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div><!--table-response-->
+                        </div><!--col-md12-->
+                    </div>
+                </div><!--panel2-->
+            </div>
+
+            <div id="panel3" class="panelblock">
+                <div class="panel panel-success">
+                    <div class="panel-heading panel-primary">
+                        <p class="panel-title text-center">
+                            <a class="chinese" data-toggle="collapse" data-parent="#groupInfo" href="#hobit">休閒嗜好</a>
+                        </p>
+                    </div>
+                    <div id="hobit" class="panel-collapse collapse row">
+                        <div class="col-md-12">
+                            <div class="table-response">
+                                <table id="myInfo" class="table table-hover chinese">
+                                    <tbody>
+                                        <tr>
+                                            <td>運動</td>
+                                            <td>羽球、慢跑</td>
+                                        </tr>
+                                        <tr>
+                                            <td>音樂</td>
+                                            <td>王宏恩、五月天、GLAY</td>
+                                        </tr>
+                                        <tr>
+                                            <td>電視節目</td>
+                                            <td>一字千金</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div><!--table-response-->
+                        </div><!--col-md-12-->
+                    </div>
+                </div><!--panel3-->
+            </div>
+
+            <div id="panel4" class="panelblock">
+                <div class="panel panel-success">
+                    <div class="panel-heading panel-primary">
+                        <p class="panel-title text-center">
+                            <a class="chinese" data-toggle="collapse" data-parent="#groupInfo" href="#traning">受訓紀錄</a>
+                        </p>
+                    </div>
+                    <div id="traning" class="panel-collapse collapse row">
+                        <div class="col-md-12">
+                            <div class="table-response">
+                                <table id="myInfo" class="table table-hover chinese">
+                                    <tbody>
+                                        <tr>
+                                            <td>培訓單位</td>
+                                            <td>高屏澎東分屬</td>
+                                        </tr>
+                                        <tr>
+                                            <td>班別</td>
+                                            <td>行動商務系統設計與開發班</td>
+                                        </tr>
+                                        <tr>
+                                            <td>受訓期間</td>
+                                            <td>2017年<br />1月5日~7月4日(900小時)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div><!--table-response-->
+                        </div><!--col-md-12-->
+                    </div>
+                </div><!--panel4-->
+            </div>
+    </div>
+</body>
+</html>
